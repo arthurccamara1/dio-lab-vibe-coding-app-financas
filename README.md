@@ -384,9 +384,265 @@ Português do Brasil.
 Prioridade:
 Construir MVP validável rapidamente antes de funcionalidades avançadas.
 
+--
+
 INTERAÇÕES COM O LOVABLE
 
 Crie um app de finanças pessoais com base no seguinte PRD
 
+SitE: https://id-preview--2964ad1c-363a-437e-97ca-f43daa184285.lovable.app/auth
+
+<img width="1114" height="846" alt="image" src="https://github.com/user-attachments/assets/cbec0fe6-377b-4255-8299-1f44fb8a2407" />
+
+---
+
+# Resumo das Funcionalidades do Aplicativo
+ 
+## Visão Geral
+ 
+O Agente Financeiro Conversacional é um aplicativo de finanças pessoais centrado em conversação, que permite ao usuário registrar gastos, acompanhar metas e receber recomendações financeiras por meio de linguagem natural.
+ 
+A experiência deve ser simples, intuitiva, acessível e baseada em princípios de Design Universal, tornando o controle financeiro mais fácil para usuários iniciantes.
+ 
+---
+ 
+# Funcionalidades Principais
+ 
+## 1. Registro de Gastos por Conversa
+ 
+Permite registrar despesas através do chat utilizando linguagem natural.
+ 
+### Exemplos
+ 
+- "Gastei R$ 50 no supermercado."
+- "Paguei R$ 80 de combustível."
+- "Assinei Netflix por R$ 39,90."
+ 
+### O sistema identifica automaticamente
+ 
+- Valor
+- Categoria
+- Data
+- Descrição
+ 
+---
+ 
+## 2. Classificação Automática de Despesas
+ 
+As transações são classificadas automaticamente em categorias financeiras.
+ 
+### Categorias iniciais
+ 
+- Alimentação
+- Transporte
+- Moradia
+- Saúde
+- Educação
+- Lazer
+- Assinaturas
+- Outros
+ 
+### Recursos
+ 
+- Sugestão automática de categoria.
+- Correção manual pelo usuário.
+- Aprendizado com correções futuras.
+ 
+---
+ 
+## 3. Histórico de Transações
+ 
+Permite consultar todas as movimentações financeiras registradas.
+ 
+### Recursos
+ 
+- Listagem de transações.
+- Busca por descrição.
+- Filtros por período.
+- Filtros por categoria.
+- Edição de registros.
+- Exclusão de registros.
+ 
+---
+ 
+## 4. Gestão de Metas Financeiras
+ 
+Permite criar e acompanhar objetivos financeiros.
+ 
+### Exemplos
+ 
+- Reserva de emergência.
+- Viagem.
+- Compra de computador.
+- Entrada de imóvel.
+ 
+### Recursos
+ 
+- Criar metas.
+- Editar metas.
+- Definir prazo.
+- Acompanhar progresso.
+- Visualizar percentual concluído.
+ 
+---
+ 
+## 5. Agente Financeiro Inteligente
+ 
+Assistente virtual responsável por analisar o comportamento financeiro do usuário.
+ 
+### Recursos
+ 
+- Recomendações de economia.
+- Comparações mensais.
+- Identificação de tendências.
+- Sugestões para atingir metas.
+- Alertas de aumento de gastos.
+ 
+### Exemplos de insights
+ 
+- "Você gastou 20% mais com alimentação este mês."
+- "Reduzindo R$ 10 por dia em refeições fora de casa, você alcançará sua meta mais rapidamente."
+- "Assinaturas representam 12% dos seus gastos mensais."
+ 
+---
+ 
+## 6. Dashboard Financeiro
+ 
+Tela principal com uma visão geral da vida financeira do usuário.
+ 
+### Exibe
+ 
+- Total gasto no mês.
+- Gastos por categoria.
+- Categoria com maior despesa.
+- Evolução financeira.
+- Metas em andamento.
+- Insights rápidos do Agente Financeiro.
+ 
+---
+ 
+## 7. Relatórios Simplificados
+ 
+Apresenta análises visuais fáceis de compreender.
+ 
+### Visualizações
+ 
+- Gastos por categoria.
+- Evolução mensal.
+- Tendências de despesas.
+- Comparativos entre períodos.
+- Progresso de metas.
+ 
+---
+ 
+## 8. Autenticação e Perfil
+ 
+Permite acesso seguro ao sistema.
+ 
+### Recursos
+ 
+- Cadastro.
+- Login.
+- Recuperação de acesso.
+- Configurações da conta.
+ 
+---
+ 
+# Telas do MVP
+ 
+## Login e Cadastro
+ 
+Objetivo:
+Permitir que o usuário crie uma conta e acesse o sistema.
+ 
+## Dashboard
+ 
+Objetivo:
+Exibir o resumo das finanças e os principais indicadores.
+ 
+## Chat do Agente Financeiro
+ 
+Objetivo:
+Ser o principal ponto de interação para registro e consulta financeira.
+ 
+## Histórico de Transações
+ 
+Objetivo:
+Consultar e gerenciar movimentações financeiras.
+ 
+## Metas Financeiras
+ 
+Objetivo:
+Criar e acompanhar objetivos financeiros.
+ 
+## Configurações
+ 
+Objetivo:
+Gerenciar preferências e dados do usuário.
+ 
+---
+ 
+# Princípios de Experiência do Usuário
+ 
+## Simplicidade
+ 
+O usuário deve conseguir utilizar o aplicativo sem treinamento prévio.
+ 
+## Conversação Natural
+ 
+As principais tarefas devem ser realizadas através do chat.
+ 
+## Baixo Esforço
+ 
+O sistema deve reduzir ao máximo a necessidade de preenchimento manual.
+ 
+## Mobile First
+ 
+Priorizar a experiência em smartphones.
+ 
+## Design Universal
+ 
+Garantir boa usabilidade para o maior número possível de pessoas.
+ 
+### Diretrizes
+ 
+- Linguagem simples.
+- Navegação intuitiva.
+- Alto contraste.
+- Compatibilidade com leitores de tela.
+- Botões com áreas de toque adequadas.
+- Feedback claro após ações.
+- Possibilidade de corrigir erros facilmente.
+- Não depender exclusivamente de cores para transmitir informações.
+ 
+---
+ 
+# Escopo do MVP
+ 
+## Incluído
+ 
+- Cadastro e login.
+- Registro de gastos via chat.
+- Classificação automática.
+- Histórico de transações.
+- Metas financeiras.
+- Dashboard financeiro.
+- Relatórios básicos.
+- Recomendações do Agente Financeiro.
+ 
+## Futuras Evoluções
+ 
+- Registro de receitas.
+- Open Finance.
+- Integração bancária.
+- Leitura de comprovantes.
+- Planejamento orçamentário.
+- Assistente por voz.
+- Gamificação.
+- Gestão financeira familiar.
+- Previsão de gastos com IA.
 
 
+--
+
+REFLEXÃO
