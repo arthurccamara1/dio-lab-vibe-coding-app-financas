@@ -646,3 +646,7 @@ Garantir boa usabilidade para o maior número possível de pessoas.
 --
 
 REFLEXÃO
+
+O que funcionou bem? O refinamento do PRD previamente feito no copilot ajudou muito, pois os créditos do lovable acabou na primeira interação.
+O que não funcionou como o esperado? Esperava produzir mais vezes com o lovable, mas as interações feitas funcionaram para entregar o projeto e aprender sobre vibe coding. descobri o Ope code para usar gratuitamente por mais tempo. 
+O que aprendeu sobre conversar com IAs? Fazer um fluxo de trabalho e PRD antes de enviar o pedido final do projeto. 
